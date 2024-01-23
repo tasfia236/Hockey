@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey</title>
+    <!-- Tailwind and DaisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Manrope Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200;400;500;600;700;800&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300;1,600;1,700;1,900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="mx-28 font-manrope">
+<!-- NavBar -->
+    <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start ">
+                <svg class="lg:hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
+                    <path d="M0.75 0.75H17.25M0.75 6H9.5M0.75 11.25H17.25" stroke="#131318" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h1 class="font-extrabold text-4xl ml-2 lg:ml-0">Hockey<span class="text-[#FF4240]">’</span>s</h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 p-2 font-normal text-base text-[#424247]">
+                <li><a class="text-[#FF4240]">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a>Pages</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <img src="Images/Frame (2).png" class="hidden lg:flex lg:mr-4" alt="">
+                <a class="btn bg-[#FF4240] text-white font-bold text-xl rounded-lg">Get Ticket</a>
+            </div>
+          </div>
+    </nav>
+    <!-- Header -->
+    <header>
+        <div>
+            <img src="Images/1.png"  class="rounded-2xl w-full" alt="">
+            <div class="-mt-12 lg:-mt-20 lg:ml-10 flex justify-center lg:justify-start lg:drop-shadow-lg gap-4">
+                <img class="bg-black rounded-full p-2 " src="Images/Frame (5).png" alt="">
+                <img class="bg-black rounded-full p-2 " src="Images/Frame (4).png" alt="">
+            </div>
+            <div class="my-5 lg:ml-auto lg:mr-8 gap-4 lg:-mt-40 bg-[#131318] rounded-xl lg:drop-shadow-sm p-8  w-full lg:w-1/2">
+                <h1 class="text-white font-extrabold text-lg">Meet all the heroes from the field</h1>
+                <p class="text-[#cbd5e1] font-medium text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
+
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Section 1 -->
+        <section>
+            <div class="lg:mt-32 text-center">
+                <h1 class="font-extrabold text-xl lg:text-4xl mt-9 lg:m-5">Professional Hockeys Club</h1>
+                <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <div class="grid grid-cols-1 ml-18 lg:flex lg:justify-evenly lg:mt-20">
+                    <div class="my-6">
+                        <div class="radial-progress text-[#FF0000]" style="--value:87;" role="progressbar">87%</div>
+                        <h1 class="font-semibold text-xl">Prayer Facility</h1>
+                        <p class="font-normal text-base text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="my-6">
+                        <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                        <h1 class="font-semibold text-xl">Experienced Coach</h1>
+                        <p class="font-normal text-base text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="my-6">
+                        <div class="radial-progress text-orange-500" style="--value:90;" role="progressbar">90%</div>
+                        <h1 class="font-semibold text-xl">Senior Player</h1>
+                        <p class="font-normal text-base text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="my-6">
+                        <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+                        <h1 class="font-semibold text-xl">Training Ground</h1>
+                        <p class="font-normal text-base text-[#13131899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section>
+            <div  class="lg:mt-32 text-center">
+                <h1 class="font-extrabold text-xl lg:text-4xl mt-9 lg:m-5">Program Sections</h1>
+                <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <div class="grid grid-cols-2">
+                    <img src="Images/2.png" alt="">
+                    <img src="Images/3.png" alt="">
+                    <img src="Images/4.png" alt="">
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer p-10 bg-neutral text-neutral-content mt-20">
+        <nav>
+            <header class="footer-title text-white">Get In Touch</header> 
+            <p class="w-80">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <ul class="flex justify-around gap-x-2">
+                <li><img src="Images/Frame (6).png" alt=""></li>
+                <li><a href="">hockeys@support.com</a></li>
+            </ul>
+            <ul class="flex justify-around gap-x-2">
+                <li><img src="Images/Frame (7).png" alt=""></li>
+                <li><a href="">+880123456789</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <header class="footer-title">Company</header> 
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a href="">Legal Notice</a>
+          </nav> 
+        <nav>
+          <header class="footer-title text-white">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
+</body>
+</html>
