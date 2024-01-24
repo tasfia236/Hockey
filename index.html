@@ -38,13 +38,11 @@
 </head>
 <body class="font-manrope">
 <!-- NavBar -->
-    <nav class="mx-28">
+    <nav class="mx-24">
         <div class="navbar bg-base-100">
             <div class="navbar-start ">
-                <svg class="lg:hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
-                    <path d="M0.75 0.75H17.25M0.75 6H9.5M0.75 11.25H17.25" stroke="#131318" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <h1 class="font-extrabold text-4xl ml-2 lg:ml-0">Hockey<span class="text-[#FF4240]">’</span>s</h1>
+              <img class="-ml-2 lg:hidden" src="Images/Frame (8).png" alt="">
+              <h1 class="font-extrabold text-2xl lg:text-4xl ml-2 lg:ml-0">Hockey<span class="text-[#FF4240]">’</span>s</h1>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 p-2 font-normal text-base text-[#424247]">
@@ -57,23 +55,32 @@
             </div>
             <div class="navbar-end">
                 <img src="Images/Frame (2).png" class="hidden lg:flex lg:mr-4" alt="">
-                <a class="btn bg-[#FF4240] text-white font-bold text-xl rounded-lg">Get Ticket</a>
+                <a class="-mr-2 btn bg-[#FF4240] text-white font-bold text-base lg:text-xl rounded-lg w-fit">Get Ticket</a>
             </div>
           </div>
     </nav>
     <!-- Header -->
     <header  class="mx-24">
         <div class="carousel w-full">
-            <img src="Images/1.png"  class="rounded-2xl w-full" alt="">
-            <div class="absolute flex justify-between transform -translate-y-1/2 mt-20 ml-5 lg:ml-10 lg:mt-12 lg:gap-2 gap-60">
-              <a href="#slide4" class="btn btn-circle"><img class="bg-black rounded-full p-2 " src="Images/Frame (5).png" alt=""></a> 
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle"><img class="bg-black rounded-full p-2 " src="Images/Frame (5).png" alt=""></a> 
               <a href="#slide2" class="btn btn-circle"><img class="bg-black rounded-full p-2 " src="Images/Frame (4).png" alt=""></a>
             </div>
-        </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/pexels-pixabay-259915.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle"><img class="bg-black rounded-full p-2 " src="Images/Frame (5).png" alt=""></a> 
+              <a href="#slide1" class="btn btn-circle"><img class="bg-black rounded-full p-2 " src="Images/Frame (4).png" alt=""></a>
+            </div>
+          </div> 
+          </div>
         <div>
             <div class="my-5 lg:ml-auto lg:mr-8 gap-4 lg:-mt-40 bg-[#131318] rounded-xl lg:drop-shadow-sm p-8  w-full lg:w-1/2">
                 <h1 class="text-white font-extrabold text-lg">Meet all the heroes from the field</h1>
-                <p class="text-[#cbd5e1] font-medium text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-[#cbd5e1] font-medium text-sm">meet with our famous player. </p>
             </div>
         </div>
 
@@ -84,7 +91,7 @@
         <section>
             <div class="lg:mt-32 text-center">
                 <h1 class="font-extrabold text-xl lg:text-4xl mt-9 lg:m-5">Professional Hockeys Club</h1>
-                <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Our official Hockey Club</p>
                 <div class="grid grid-cols-1 ml-18 lg:flex lg:justify-evenly lg:mt-20">
                     <div class="my-6">
                         <div class="radial-progress text-[#FF0000]" style="--value:87;" role="progressbar">87%</div>
@@ -117,7 +124,6 @@
                 <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-5">
                   <div>
                     <img class="w-full" src="Images/2.png" alt="">
-              <!--  lg:-mt-20 lg:ml-10  -->
                     <div class="flex flex-col -mt-20 justify-center lg:justify-start lg:drop-shadow-lg ml-10 w-[277px] lg:w-[495px] gap-4 text-left">
                       <h1 class="text-white -mt-20 font-extrabold text-xl lg:text-3xl">Junior Program</h1>
                       <p class="text-white -mt-2 text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam blanditiis ipsa voluptates asperiores modi laborum!</p>
@@ -127,7 +133,7 @@
                   <div>
                     <img class="w-full" src="Images/3.png" alt="">
                       <div class="flex flex-col -mt-20 justify-center lg:justify-start lg:drop-shadow-lg ml-10 w-[277px] lg:w-[495px] gap-4 text-left">
-                        <h1 class="text-white -mt-20 font-extrabold text-xl lg:text-3xl">Junior Program</h1>
+                        <h1 class="text-white -mt-20 font-extrabold text-xl lg:text-3xl">Teenager Program</h1>
                         <p class="text-white -mt-2 text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam blanditiis ipsa voluptates asperiores modi laborum!</p>
                         <a class="btn bg-[#FF4240] -mt-2 text-white font-bold text-lg lg:text-xl rounded-lg w-fit">Register Now!</a>
                       </div>
@@ -135,7 +141,7 @@
                   <div class="lg:col-span-2">
                     <img class="w-full h-[244px] lg:h-[400px]" src="Images/4.png" alt="">
                     <div class="flex flex-col -mt-20 lg:-mt-20 justify-center lg:justify-start lg:drop-shadow-lg ml-10 w-[277px] lg:w-[495px] gap-4 text-left">
-                      <h1 class="text-white -mt-20 font-extrabold text-xl lg:text-3xl">Junior Program</h1>
+                      <h1 class="text-white -mt-20 font-extrabold text-xl lg:text-3xl">Professional Program</h1>
                       <p class="text-white -mt-2 text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam blanditiis ipsa voluptates asperiores modi laborum!</p>
                       <a class="btn bg-[#FF4240] -mt-2 text-white font-bold text-lg lg:text-xl rounded-lg w-fit">Register Now!</a>
                     </div>
@@ -147,7 +153,7 @@
         <section class="section-3 mt-28">
             <div class="text-center mb-10 lg:mb-20">
                 <h1 class="font-extrabold text-xl lg:text-4xl">Our New Products</h1>
-                <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Some of our best product given below. </p>
             </div>
             <div>
           <div class="flex flex-col lg:flex-row gap-10">
@@ -286,7 +292,7 @@
     <section class="section-4 mt-20">
         <div class="text-center mb-10">
          <h1 class="font-extrabold text-xl lg:text-4xl">Clients Question</h1>
-         <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+         <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Some important question. </p>
         </div>
         <div class=" lg:flex lg:gap-7">
          <div>
@@ -361,28 +367,28 @@
         <section class="mt-20">
             <div class="text-center mb-14">
                 <h1 class="font-extrabold text-xl lg:text-4xl">Get In Touch</h1>
-                <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="font-medium text-sm lg:text-base my-3 lg:my-6 lg:mx-80 text-[#13131899]">Get News from Us. </p>
             </div>
-            <div class="lg:flex justify-center lg:flex-col-2 lg:justify-evenly lg:ml-20 w-full">
+            <div class="lg:flex justify-center lg:flex-col-2 lg:justify-around lg:ml-20 w-full">
                <div class="flex flex-col space-y-4 mt-10 " >
-                <div class="h-[150px] w-[375px] bg-card-bg-one p-4 rounded-2xl ">
+                <div class="h-[150px] w-full lg:w-[375px] bg-card-bg-one p-4 rounded-2xl ">
                         <img src="Images/Group 1171275317.png" alt="">
                         <p>phone Number:</p>
                         <p>(+62) 123-321-543</p>
                 </div>
-                <div  class=" h-[150px] w-[375px] bg-card-bg-two p-4 rounded-2xl">
+                <div  class=" h-[150px] w-full lg:w-[375px] bg-card-bg-two p-4 rounded-2xl">
                     <img src="Images/Group 1171275318.png" alt="">
                     <p>phone Number:</p>
                     <p>(+62) 123-321-543</p>
                 </div>
-                <div  class="h-[150px] w-[375px] bg-card-bg-three p-4 rounded-2xl">
+                <div  class="h-[150px] w-full lg:w-[375px] bg-card-bg-three p-4 rounded-2xl">
                     <img src="Images/Group 1171275321.png" alt="">
                     <p>phone Number:</p>
                     <p>(+62) 123-321-543</p>
                 </div>
                </div>
                 <div class="card w-full bg-base-100">
-                    <form class="card-body w-[450px] -ml-10">
+                    <form class="card-body lg:w-full -ml-10 lg:ml-auto">
                       <div class="lg:flex gap-2">
                         <div class="sm:col-span-4  lg:w-[50%]">
                             <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
@@ -427,7 +433,7 @@
               </div>
             <div class="h-[150px] w-[100%] bg-color-input mt-20 pt-7 space-y-4 text-center">
                 <h4>Social Media</h4>
-                <div class="ml-[25%] lg:ml-[42%]">
+                <div class="ml-[20%] lg:ml-[43%]">
                     <img class="rounded-xl" src="Images/Social.png" alt="">
                 </div>
             
@@ -437,45 +443,47 @@
     </main>
     <!-- Footer -->
     <footer class="footer p-10 bg-neutral text-neutral-content mt-20 w-full lg:w-full">
-      <nav class="ml-[20%] ">
-          <header class="footer-title text-white ml-[30%] lg:ml-[-1%]">Get In Touch</header> 
+      <nav class="ml-[15%] ">
+          <header class="footer-title text-white ml-[34%] lg:ml-[-1%]">Get In Touch</header> 
           <p class="w-80 text-center lg:text-left">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-          <ul class="flex justify-around gap-x-2 ml-[25%] lg:ml-[-1%]">
+          <ul class="flex justify-around gap-x-2 ml-[22%] lg:ml-[-1%]">
               <li><img src="Images/Frame (6).png" alt=""></li>
               <li><a href="">hockeys@support.com</a></li>
           </ul>
-          <ul class="flex justify-around gap-x-2 ml-[25%] lg:ml-[-1%]">
+          <ul class="flex justify-around gap-x-2 ml-[22%] lg:ml-[-1%]">
               <li><img src="Images/Frame (7).png" alt=""></li>
               <li><a href="">+880123456789</a></li>
           </ul>
       </nav>
-      <div class="flex ml-[25%] ">
-         <div class="">
-          <nav >
+      <div class="flex ml-[15%] ">
+         <div>
+          <nav class="flex flex-col">
               <header class="footer-title ">Company</header> 
               <a class="link link-hover">About us</a> <br>
               <a class="link link-hover">Leadership</a><br>
               <a class="link link-hover">Careers</a><br>
               <a class="link link-hover">News & Article</a><br>
-              <a href="">Legal Notice</a>
+              <a class="link link-hover">Legal Notice</a>
             </nav> 
          </div>
           <div class="relative left-24">
-              <nav class="">
-                  <header class="footer-title text-white">Services</header> 
-                  <a class="link link-hover">Branding</a><br>
-                  <a class="link link-hover">Design</a><br>
-                  <a class="link link-hover">Marketing</a><br>
-                  <a class="link link-hover">Advertisement</a><br>
-                </nav> 
+            <nav class="flex flex-col gap-y-5">
+              <header class="footer-title text-white">Support</header> 
+              <a class="link link-hover">Help Center</a>
+              <a class="link link-hover">FAQ</a>
+              <a class="link link-hover">Ticket Support</a>
+              <a class="link link-hover">Contact Us</a>
+            </nav>
           </div>
       </div>
-      <nav class="ml-[50%]">
-        <header class="footer-title text-white">Support</header> 
-        <a class="link link-hover">Help Center</a>
-        <a class="link link-hover">FAQ</a>
-        <a class="link link-hover">Contact</a>
-      </nav>
+      <nav class="ml-[40%] flex flex-col">
+        <header class="footer-title text-white">Services</header>
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for Adult</a>
+      </nav> 
     </footer>
 </body>
     
